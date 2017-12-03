@@ -2,6 +2,10 @@
 
 ASP.NET Angular 5 project generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/angular-cli.png)](http://angular-cli.web-templates.io/)
+
+> Browse [source code](https://github.com/NetFrameworkTemplates/angular-cli-netfx) or view Live Demo [angular-cli.web-templates.io](http://angular-cli.web-templates.io)
+
 ## Dev Workflow
 
 Run the ASP.NET Server App with `F5` and watch for changes and in a new terminal window run the `dev` Gulp task in Task Runner Explorer to start a dev watch
