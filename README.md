@@ -6,7 +6,7 @@ ASP.NET Angular 5 project generated with [Angular CLI](https://github.com/angula
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/angular-cli-netfx), view live demo [angular-cli.web-templates.io](http://angular-cli.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ npm install -g servicestack-cli
+    $ npm install -g @servicestack/cli
 
     $ dotnet-new angular-cli-netfx ProjectName
 
