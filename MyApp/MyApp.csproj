@@ -45,6 +45,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyApp.ServiceInterface\MyApp.ServiceInterface.csproj">
+      <Project>{582dfb0f-f84d-4e43-9bca-2a5a86600b7a}</Project>
+      <Name>MyApp.ServiceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyApp.ServiceModel\MyApp.ServiceModel.csproj">
+      <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>
+      <Name>MyApp.ServiceModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="ServiceStack, Version=5.0.0.0, Culture=neutral, PublicKeyToken=02c12cbda47e6587, processorArchitecture=MSIL">
       <HintPath>..\packages\ServiceStack.5.1.1\lib\net45\ServiceStack.dll</HintPath>
@@ -93,16 +103,6 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyApp.ServiceInterface\MyApp.ServiceInterface.csproj">
-      <Project>{582dfb0f-f84d-4e43-9bca-2a5a86600b7a}</Project>
-      <Name>MyApp.ServiceInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyApp.ServiceModel\MyApp.ServiceModel.csproj">
-      <Project>{08bef328-ab7d-48d3-800d-48acc75c7914}</Project>
-      <Name>MyApp.ServiceModel</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="AppHost.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -135,13 +135,12 @@
     <Content Include="src\browserslist" />
     <Content Include="src\styles.scss" />
     <Content Include="src\tslint.json" />
+    <Content Include="README.md" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
-    <TypeScriptCompile Include="e2e\app.po.ts" />
     <TypeScriptCompile Include="e2e\src\app.e2e-spec.ts" />
     <TypeScriptCompile Include="e2e\src\app.po.ts" />
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
