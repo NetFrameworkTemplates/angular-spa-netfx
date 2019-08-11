@@ -8,7 +8,7 @@ namespace MyApp
         public void Configure(IAppHost appHost)
         {
             // if wwwroot/ is empty, build Client App with 'npm run build'
-            var svgDir = appHost.RootDirectory.GetDirectory("/svg"); 
+            var svgDir = appHost.RootDirectory.GetDirectory("/assets/svg"); 
             if (svgDir != null)
             {
                 Svg.Load(svgDir);
