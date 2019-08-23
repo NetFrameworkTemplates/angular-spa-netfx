@@ -5,7 +5,6 @@
     "postinstall": "npm run build",
     "ng": "ng",
     "dev": "ng build --aot --watch",
-    "start": "ng serve --proxy-config proxy.config.json",
     "dtos": "tsd-ref && ts-ref",
     "build": "ng build --prod",
     "publish": "npm run build",
