@@ -6,9 +6,9 @@ ASP.NET Angular 8 project generated with [Angular CLI](https://github.com/angula
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/angular-spa-netfx), view live demo [angular-spa.web-templates.io](http://angular-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install --global web
+    $ dotnet tool install --global x
 
-    $ web new angular-spa-netfx ProjectName
+    $ x new angular-spa-netfx ProjectName
 
 ## Dev Workflow
 
